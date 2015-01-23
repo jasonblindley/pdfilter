@@ -14,8 +14,8 @@ public class PDFilterPanel extends JPanel {
   }
 
   private void configureControls() {
-    add(new PdfFilePicker("Source File"));
-    add(new PdfFilePicker("Result File"));
+    add(new PdfFilePicker("Source File:"));
+    add(new PdfFilePicker("Result File:"));
   }
 
 }
